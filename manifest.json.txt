@@ -1,0 +1,41 @@
+﻿{
+  "id": "com.calculadora.imc",
+  "name": "Calculadora de IMC",
+  "short_name": "IMC Calc",
+  "description": "Aplicación para calcular tu Índice de Masa Corporal de manera rápida y precisa",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4285f4",
+  "orientation": "any",
+  "categories": ["health", "fitness", "utilities"],
+  "lang": "es",
+  "dir": "ltr",
+  "scope": "/",
+  "launch_handler": {
+    "client_mode": ["navigate-existing", "auto"]
+  },
+  "screenshots": [
+    {
+      "src": "screenshots/screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Pantalla principal de la calculadora"
+    }
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
